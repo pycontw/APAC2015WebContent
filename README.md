@@ -5,6 +5,7 @@ For the web source, see [another repo][websrc].
 ~~~
 ├── en/
 ├── ja/
+├── kr/
 ├── zh-tw/
 └── pics/
 ~~~
@@ -24,8 +25,10 @@ To lang-specific webpage,
 
 - [en]
 - [ja]
+- [kr]
 - [zh-tw]
 
 [en]:    http://pycon.tw
 [ja]:    http://pycon.tw
+[kr]:    http://pycon.tw
 [zh-tw]: http://pycon.tw
