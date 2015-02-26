@@ -1,9 +1,8 @@
 ## To help modify/add the content
 
 1. Fork this repo.
-2. Assign yourself with the issue. If the content is new, create a new one and assign yourself so others know you are working on it.
+2. Leave a comment at the issue you are going to work on. If no existed issue matches, create a new one.
 3. Submit pull request.
-
 
 
 ## To proofread the content
