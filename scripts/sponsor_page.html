@@ -1,0 +1,15 @@
+<div class="container">
+    {% for sponsor_category in sponsor_categories %}
+    <h1>{{sponsor_category.level}}</h1>
+    <hr /> {% for sponsor in sponsor_category.sponsors %}
+    <div class="row">
+        <div class="col-md-3"><img src="{{sponsor.logo}}" width="200" />
+        </div>
+        <div class="col-md-9">
+            <h2>{{sponsor.name}}</h2>
+            <p>{{sponsor.description}}</p>
+        </div>
+    </div>
+    {% endfor %}
+    {% endfor %}
+</div>
