@@ -34,5 +34,5 @@ To manage with the site web content, use [pyapac-web] tool.
 [en]:    https://tw.pycon.org/2015apac/en/
 [ja]:    https://tw.pycon.org/2015apac/ja/
 [kr]:    https://tw.pycon.org/2015apac/kr/
-[zh-tw]: http://pycon.tw
+[zh-tw]: https://tw.pycon.org/2015apac/zh/
 [pyapac-web]: https://github.com/ccwang002/pyapac_web_uploader
