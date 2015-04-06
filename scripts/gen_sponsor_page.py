@@ -17,10 +17,12 @@ bucket = storage.get_bucket(
 
 
 def upload_image(filename):
-    key = bucket.upload_file(filename)
-    key.make_public()
-    return key.public_url
-
+    try:
+        key = bucket.upload_file(filename)
+        key.make_public()
+        return key.public_url
+    except:
+        return 'http://storage.googleapis.com/pycon-apac-2015/%s' % filename
 
 def import_application():
     level_orders = ["Platinum", "Gold", "Silver", "Bronze", "Media", "Other"]
@@ -29,6 +31,7 @@ def import_application():
         ireader = csv.DictReader(ifile)
 
         for row in ireader:
+            if not row['Sponsor Package']: continue
             level = row['Sponsor Package'].split()[0]
             if level not in level_orders:
                 logging.warning("not recognize level %s", level)
