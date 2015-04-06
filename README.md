@@ -1,6 +1,6 @@
 # PyCon APAC 2015 Web Content
 
-For the web source, see [another repo][websrc].
+For the web source, see [another repo][websrc] (currently private).
 
 ~~~
 ├── en/
@@ -10,7 +10,7 @@ For the web source, see [another repo][websrc].
 └── pics/
 ~~~
 
-[websrc]: http://pycon.tw
+[websrc]: https://github.com/daikeren/pycon
 
 
 ## Contributing
@@ -31,8 +31,8 @@ To lang-specific webpage,
 To manage with the site web content, use [pyapac-web] tool.
 
 
-[en]:    http://pycon.tw
-[ja]:    http://pycon.tw
-[kr]:    http://pycon.tw
-[zh-tw]: http://pycon.tw
+[en]:    https://tw.pycon.org/2015apac/en/
+[ja]:    https://tw.pycon.org/2015apac/ja/
+[kr]:    https://tw.pycon.org/2015apac/kr/
+[zh-tw]: https://tw.pycon.org/2015apac/zh/
 [pyapac-web]: https://github.com/ccwang002/pyapac_web_uploader
