@@ -25,7 +25,7 @@ def upload_image(filename):
         return 'http://storage.googleapis.com/pycon-apac-2015/%s' % filename
 
 def import_application():
-    level_orders = ["Platinum", "Gold", "Silver", "Bronze", "Media", "Other"]
+    level_orders = ["Gold", "Silver", "Bronze", "Media", "Other"]
     sponsor_categories = defaultdict(list)
     with open('application.csv') as ifile:
         ireader = csv.DictReader(ifile)
